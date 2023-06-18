@@ -2,7 +2,14 @@
 #include <time.h>
 #include <stdio.h>
 
-/* betty style doc for function main goes there */
+/**
+ * main - entry point
+ *
+ * Description: Just a desc
+ *
+ * Return: 0 (success)
+*/
+
 int main(void)
 {
 	int n;
@@ -15,11 +22,10 @@ int main(void)
 
 	if (f > 5)
 		printf("Last digit of %d is %d and is greater than 5\n", n, f);
-	if (f==0)
+	if (f == 0)
 		printf("Last digit of %d is %d and is 0\n", n, f);
 	if (f < 6 && f != 0)
 		printf("Last digit of %d is %d and is less than 6 and not 0\n", n, f);
 
-	/* your code goes there */
 	return (0);
 }
