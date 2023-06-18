@@ -3,7 +3,7 @@
 /**
  * main - Entry point
  *
- * Description: print all single digit numbers
+ * Description: print out 0-9 using putchar and int variable
  *
  * Return: Always 0 (Success)
 */
@@ -17,7 +17,7 @@ int main(void)
 		putchar(digit + '0');
 		digit++;
 	}
-	printf("\n");
+	putchar('\n');
 
 	return (0);
 }
