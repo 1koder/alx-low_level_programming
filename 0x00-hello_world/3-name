@@ -1,14 +1,2 @@
 #!/bin/bash
 gcc $CFILE -o cisfun
-^C
-
-Cc
-
-
-
-
-
-
-
-
-clear
